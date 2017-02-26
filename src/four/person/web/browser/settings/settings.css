@@ -1,0 +1,107 @@
+@font-face{
+    src: url('//res/fonts/BM-HANNA.ttf');
+}
+@font-face{
+	src: url('//res/fonts/NotoSansCJKkr-Medium.otf');
+}
+Button, Label, TextFeild, RadioButton, CheckBox{
+	-fx-font-family: 'BM HANNA';
+}
+#key_font_size{
+	-fx-font-size: 12.0pt;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+}
+#settings_root{
+	-fx-background-color: #FFFFFF;
+}
+#settings_left{
+	-fx-padding: 20.0px 10.0px 20.0px 10.0px;
+	-fx-spacing: 10.0px;
+}
+#btn_basic{
+	-fx-font-size: 20.0pt;
+	-fx-padding: 0.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: #A0A0A0;
+}
+#btn_widget_bar{
+	-fx-font-size: 20.0pt;
+	-fx-padding: 0.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: #A0A0A0;
+}
+#btn_keyboard{
+	-fx-font-size: 20.0pt;
+	-fx-padding: 0.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: #A0A0A0;
+}
+#btn_history{
+	-fx-font-size: 20.0pt;
+	-fx-padding: 0.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: #A0A0A0;
+}
+#btn_info{
+	-fx-font-size: 20.0pt;
+	-fx-padding: 0.0;
+	-fx-background-color: transparent;
+	-fx-text-fill: #A0A0A0;
+}
+#btn_confrim{
+	-fx-font-size: 20.0pt;
+}
+#scroll {
+   -fx-background: #FFFFFF;
+   -fx-border-color: #FFFFFF;
+   -fx-focus-color: #FFFFFF;
+}
+#vbox_content{
+	-fx-padding: 40.0px 0.0 40.0px 40.0px;
+	-fx-spacing: 20.0px;
+}
+#label_title{
+	-fx-font-size: 18.0pt;
+}
+#content_title{
+	-fx-font-size: 12.0pt;
+   	-fx-focus-color: blue;
+   	-fx-font-family: 'Noto Sans CJK KR Medium';
+}
+#vbox_history{
+	-fx-spacing: 10.0px;
+}
+#hbox_history{
+	-fx-spacing: 10.0px;
+}
+#hbox_info{
+	-fx-spacing: 10.0px;
+}
+#img_logo{
+	-fx-padding: 0.0;
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color: transparent;
+	-fx-background-image: url('//res/icons/logo_default.png');
+}
+#label_logo{
+	-fx-font-size: 20.0px;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+}
+#vbox_inner{
+	-fx-spacing: 5.0px;
+	-fx-padding: 0.0 0.0 0.0 10.0px;
+}
+#btn_info_content{
+	-fx-font-size: 12pt;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+	-fx-padding: 1px;
+}
+#close, #resize,#minimize, #split,
+#add, #domain, #home, #music,
+#prev, #next, #refresh, #weather,
+#pin, #capture, #windows{
+	-fx-font-size: 12pt;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+}

@@ -1,0 +1,63 @@
+@font-face{
+	src: url('//res/fonts/NotoSansCJKkr-Medium.otf');
+}
+@font-face{
+    src: url('//res/fonts/BM-HANNA.ttf');
+}
+#titleLabel{
+	-fx-padding: 0;
+	-fx-alignment : center;	
+}
+
+#presentLabel{
+	-fx-alignment : center;	
+}
+
+Label{
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+	-fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+Button, ComboBox{
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+	-fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+#box{
+	-fx-background-image: url('//res/weather/postit.png');
+    -fx-background-repeat: stretch;
+    -fx-background-size: 100% 100%;
+    -fx-background-position: center center;
+	-fx-padding: 0;
+	-fx-alignment : center;	
+}
+
+#btn_css{
+	-fx-background-color: #0072ce;
+}
+#btn_css:hover{
+	-fx-background-color: #00d34e;
+}
+
+#pane{
+	-fx-padding: 0;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;	
+}
+
+#imgLabel{
+    -fx-background-repeat: no-repeat;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+	-fx-padding: 0;
+}
+
+#hBoxCss{
+	-fx-padding: 0;
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}

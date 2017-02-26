@@ -1,0 +1,142 @@
+@font-face{
+	src: url('//res/fonts/NotoSansCJKkr-Medium.otf');
+}
+#btn_load{
+	
+}
+#btn_exit{
+	-fx-padding: 0;
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-image: url('//res/icons/cancel.png');
+	-fx-background-color: transparent;
+}
+#tf_domain{
+	-fx-background-color: transparent ,-fx-box-border,-fx-control-inner-background;
+  	-fx-background-insets: -1.4, 0.0, 1.0;
+  	-fx-background-radius: 1.4, 0.0, 0.0;
+  	-fx-padding: 1.0 0 0 10;
+  	-fx-font-family: 'Noto Sans CJK KR Medium';
+
+}
+#tf_domain:focused{
+	-fx-background-color: transparent,-fx-box-border,-fx-control-inner-background;
+  	-fx-background-insets: -1.4, 0.0, 1.0;
+  	-fx-background-radius: 1.4, 0.0, 0.0;
+  	-fx-padding: 1.0 0 0 10;
+}
+
+#alert{
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+	-fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1; 
+    -fx-effect: innershadow( three-pass-box , #d0d0d0 , 10, 0.0 , 0 , 1 );
+}
+#alert .container{
+	-fx-effect: dropshadow( three-pass-box , #d0d0d0 , 8, 0.0 , 0 , 1 );
+}
+#alert .button{
+	-fx-background-color: #d0d0d0;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+    -fx-font-size: 14px;
+}
+#alert .button:hover{
+	-fx-background-color: #808080;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+#hbox_domain{
+	-fx-background-color: transparent;
+}
+#hbox_browsing{
+	-fx-padding: 0 0 0 0;
+	-fx-background-color: transparent;
+}
+#top_vbox{
+	-fx-background-color: transparent;
+}
+ImageView{	
+	-fx-effect: dropshadow( three-pass-box , black , 8, 0.0 , 0 , 1 );
+}
+ImageView:hover{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+ImageView:focused{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+ImageView:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+ScrollPane{
+	-fx-background-color: transparent;
+	-fx-padding: 0 10px 0 10px;
+	-fx-border-color: #FFFFFF;
+	-fx-border-width: 0px;
+   	-fx-focus-color: #FFFFFF;
+}
+ScrollPane .viewport {
+	-fx-background-color: transparent;
+}
+ScrollPane .scroll-bar:horizontal{
+	-fx-background-color: transparent;
+}
+ScrollPane .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+ScrollPane .scroll-bar:horizontal .track,
+ScrollPane .scroll-bar:vertical .track{
+	-fx-background-color: derive(gray,90%);
+	-fx-border-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-border-radius:2em;
+}
+
+ScrollPane .scroll-bar:horizontal .increment-button ,
+ScrollPane .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 0em;
+	-fx-padding:0 0 5px 0;
+}
+
+ScrollPane .scroll-bar .increment-arrow,
+ScrollPane .scroll-bar .decrement-arrow{
+	-fx-shape: "";	
+	-fx-padding:0;
+}
+
+ScrollPane .scroll-bar:horizontal .thumb,
+ScrollPane .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(gray,70%);
+	-fx-background-insets: 1px, 0, 0;
+	-fx-background-radius: 2em;
+}
+
+
+
+
+/* The increment and decrement button CSS class of scrollbar */
+WebView .increment-button ,.mylistview .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+WebView .scroll-bar:horizontal .track,
+WebView .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive(gray,80%);
+
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+WebView .scroll-bar:horizontal .thumb,
+WebView .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}

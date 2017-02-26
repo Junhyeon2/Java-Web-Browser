@@ -1,0 +1,143 @@
+ToolBar{
+	-fx-padding: 10px 10px 10px 10px;
+}
+Button{
+	-fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 3, 0.0 , 0 , 1 );
+}
+#btn_save{
+	-fx-background-image: url('//res/capture/save-1.png');
+	-fx-background-color: #f17c7c;
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+}
+#btn_save:hover{
+	-fx-effect: dropshadow( three-pass-box , #f17c7c , 8, 0.0 , 0 , 1 );
+}
+#btn_save:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#btn_pen{
+	-fx-background-image: url('//res/capture/pencil-1.png');
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color:#e3aff0;
+}
+#btn_pen:hover{
+	-fx-effect: dropshadow( three-pass-box , #e3aff0 , 8, 0.0 , 0 , 1 );
+}
+#btn_pen:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#btn_eraser{
+	-fx-background-image: url('//res/capture/eraser-1.png');
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color:#989ef2;
+}
+#btn_eraser:hover{
+	-fx-effect: dropshadow( three-pass-box , #989ef2 , 8, 0.0 , 0 , 1 );
+}
+#btn_eraser:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#btn_text{
+	-fx-background-image: url('//res/capture/text-1.png');
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color:#f0c098;
+}
+#btn_text:hover{
+	-fx-effect: dropshadow( three-pass-box , #f0c098, 8, 0.0 , 0 , 1 );
+}
+#btn_text:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#btn_close{
+	-fx-background-image: url('//res/icons/cancel.png');
+	-fx-background-size: cover;
+	-fx-background-repeat: no-repeat;
+	-fx-background-color: transparent;
+}
+#btn_text:hover{
+	-fx-effect: dropshadow( three-pass-box , #DC143C, 8, 0.0 , 0 , 1 );
+}
+#btn_text:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+
+
+#input_text{
+	-fx-background-color: rgba(0, 0, 0, 0);
+	-fx-font-size: 20pt;
+	-fx-font-weight: bold;
+	-fx-border-width: 1px;
+	-fx-border-color: #000000;
+	-fx-border-style: dotted;
+	
+}
+
+#input_text:focus{
+	-fx-background-color: rgba(0, 0, 0, 0);
+
+	-fx-border-width: 1px;
+	-fx-border-color: rgba(0, 0, 0, 0.7);
+	-fx-border-style: dotted;
+	
+}
+#input_text .content {
+    -fx-background-color: rgba(0, 0, 0, 0) ;
+}
+#input_text .scroll-pane {
+    -fx-background-color: transparent;
+    -fx-hbar-policy : never;
+    -fx-vbar-policy : never;
+}
+
+#input_text .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+#input_text .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+#alert{
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+	-fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1; 
+    -fx-effect: innershadow( three-pass-box , #d0d0d0 , 10, 0.0 , 0 , 1 );
+    -fx-background-color: #e0e0e0;
+}
+#alert .container{
+	-fx-effect: dropshadow( three-pass-box , #d0d0d0 , 8, 0.0 , 0 , 1 );
+}
+#alert .button{
+	-fx-background-color: #d0d0d0;
+	-fx-font-family: 'Noto Sans CJK KR Medium';
+    -fx-font-size: 14px;
+}
+#alert .button:hover{
+	-fx-background-color: #808080;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+}
+ImageView{	
+	-fx-effect: dropshadow( three-pass-box , black , 8, 0.0 , 0 , 1 );
+}
+ImageView:hover{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+ImageView:focused{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+ImageView:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}

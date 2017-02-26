@@ -1,0 +1,163 @@
+WidgetButton{
+	-fx-padding: 0;
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 3, 0.0 , 0 , 1 );
+}
+
+#close{
+	-fx-background-image: url('//res/icons/close.png');
+	-fx-background-color: #DC143C;
+}
+#close:hover{
+	-fx-effect: dropshadow( three-pass-box , #DC143C , 8, 0.0 , 0 , 1 );
+}
+#close:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#resize{
+	-fx-background-image: url('//res/icons/resize.png');
+	-fx-background-color: #0072CE;
+}
+#resize:hover{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+#resize:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#minimize{
+	-fx-background-color: #3CB371;
+	-fx-background-image: url('//res/icons/minimize.png');
+}
+#minimize:hover{
+	-fx-effect: dropshadow( three-pass-box , #3CB371 , 8, 0.0 , 0 , 1 );
+}
+#minimize:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+
+#split{
+	-fx-background-color: #CB99C9;
+	-fx-background-image: url('//res/icons/split.png');
+}
+#split:hover{
+	-fx-effect: dropshadow( three-pass-box , #CB99C9 , 8, 0.0 , 0 , 1 );
+}
+#split:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#add{
+	-fx-background-color: #00bfff;
+	-fx-background-image: url('//res/icons/add.png');
+}
+#add:hover{
+	-fx-effect: dropshadow( three-pass-box , #00bfff , 8, 0.0 , 0 , 1 );
+}
+#add:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#domain{
+	-fx-background-color: #F49AC2;
+	-fx-background-image: url('//res/icons/domain.png');
+}
+#domain:hover{
+	-fx-effect: dropshadow( three-pass-box , #F49AC2 , 8, 0.0 , 0 , 1 );
+}
+#domain:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#home{
+	-fx-background-color: #FFB347;
+	-fx-background-image: url('//res/icons/home.png');
+}
+#home:hover{
+	-fx-effect: dropshadow( three-pass-box , #FFB347 , 8, 0.0 , 0 , 1 );
+}
+#home:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#music{
+	-fx-background-color: #eedd82;
+	-fx-background-image: url('//res/icons/music.png');
+}
+#music:hover{
+	-fx-effect: dropshadow( three-pass-box , #eedd82 , 8, 0.0 , 0 , 1 );
+}
+#music:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#prev{
+	-fx-background-color: #d02090;
+	-fx-background-image: url('//res/icons/prev.png');
+}
+#prev:hover{
+	-fx-effect: dropshadow( three-pass-box , #d02090 , 8, 0.0 , 0 , 1 );
+}
+#prev:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#next{
+	-fx-background-color: #ff6347;
+	-fx-background-image: url('//res/icons/next.png');
+}
+#next:hover{
+	-fx-effect: dropshadow( three-pass-box , #ff6347 , 8, 0.0 , 0 , 1 );
+}
+#next:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#refresh{
+	-fx-background-color: #ff1493;
+	-fx-background-image: url('//res/icons/refresh.png');
+}
+#refresh:hover{
+	-fx-effect: dropshadow( three-pass-box , #ff1493 , 8, 0.0 , 0 , 1 );
+}
+#refresh:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#weather{
+	-fx-background-color: #00ced1;
+	-fx-background-image: url('//res/icons/weather.png');
+}
+#weather:hover{
+	-fx-effect: dropshadow( three-pass-box , #00ced1 , 8, 0.0 , 0 , 1 );
+}
+#weather:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#pin{
+	-fx-background-color: #0000cd;
+	-fx-background-image: url('//res/icons/pin.png');
+}
+#pin:hover{
+	-fx-effect: dropshadow( three-pass-box , #0000cd , 8, 0.0 , 0 , 1 );
+}
+#pin:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#capture{
+	-fx-background-color: #6a5acd;
+	-fx-background-image: url('//res/icons/capture.png');
+}
+#capture:hover{
+	-fx-effect: dropshadow( three-pass-box , #6a5acd , 8, 0.0 , 0 , 1 );
+}
+#capture:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}
+#windows{
+	-fx-background-color: #0072CE;
+	-fx-background-image: url('//res/icons/windows.png');
+}
+#windows:hover{
+	-fx-effect: dropshadow( three-pass-box , #0072CE , 8, 0.0 , 0 , 1 );
+}
+#windows:pressed{
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.0 , 0 , 1 );
+}

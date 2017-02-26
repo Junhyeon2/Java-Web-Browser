@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+<ScrollPane xmlns:fx="http://javafx.com/fxml"
+	fx:controller="four.person.web.browser.settings.keyboard.SettingsKeyboardController"
+	id="scroll">
+	<content>
+
+		<VBox fx:id="vbox_content">
+			<children>
+				<Label id="label_title" text="단축키 설정" />
+				<HBox >
+					<children>
+						<ComboBox fx:id="KeySelectBox" layoutX="150.0" layoutY="33.0"
+							prefWidth="200.0" id="key_font_size" promptText="선택">
+							<items>
+								<FXCollections fx:factory="observableArrayList">
+									<String fx:value="주소 입력 창" />
+									<String fx:value="뒤로 가기" />
+									<String fx:value="앞으로 가기" />
+									<String fx:value="새 탭 추가" />
+									<String fx:value="종료" />
+									<String fx:value="크기 조절" />
+									<String fx:value="최소화" />
+									<String fx:value="화면 캡쳐 및 편집" />
+									<String fx:value="뮤직 플레이어" />
+									<String fx:value="브라우저를 최상위에 고정" />
+									<String fx:value="화면 분할" />
+									<String fx:value="탭 이동" />
+									<String fx:value="날씨" />
+									<String fx:value="새로고침" />
+									<String fx:value="홈" />
+								</FXCollections>
+							</items>
+						</ComboBox>
+						<TextField fx:id="tf_setting" id="key_font_size"></TextField>
+						<Button fx:id="bt_setting" text="완료" id="key_font_size" prefWidth="70.0"></Button>
+						<Button fx:id="bt_reset" text="초기화" id="key_font_size" prefWidth="70.0"></Button>
+						
+					</children>
+				</HBox>
+				<HBox fx:id="Hbox_close">
+					<children>
+						<Label text="주소 입력 창" prefWidth="200.0" id="key_font_size"/>
+						<Label  fx:id="tf_domain" id="key_font_size"/>
+			
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="뒤로 가기" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_next" id="key_font_size"/>
+	
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="앞으로 가기" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_prev" id="key_font_size"/>
+
+					</children>
+				</HBox>
+
+				<HBox>
+					<children>
+						<Label text="새 탭 추가" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_add" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="종료" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_close" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="크기 조절" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="resize" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="최소화" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_minimize" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="화면 캡쳐 및 편집" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_capture" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="뮤직 플레이어" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_music" id="key_font_size"/>
+			
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="브라우저를 최상위에 고정" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_pin" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="화면 분할" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_split" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="탭 이동" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_windows" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="날씨" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_weather" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="새로고침" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_refresh" id="key_font_size"/>
+
+					</children>
+				</HBox>
+				<HBox>
+					<children>
+						<Label text="홈" prefWidth="200.0" id="key_font_size"/>
+						<Label fx:id="tf_home" id="key_font_size"/>
+
+					</children>
+				</HBox>
+
+			</children>
+		</VBox>
+
+
+	</content>
+
+</ScrollPane>
+
